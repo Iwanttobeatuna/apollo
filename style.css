@@ -111,6 +111,10 @@
 .text-white{
   color: #fff;
 }
+
+.text-yellow{
+  color: #f09510;
+}
 .w-commerce-commercecartcontainerwrapper--cartType-leftSidebar {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3274,7 +3278,7 @@ figcaption {
 .button-primary {
   padding: 22px 40px;
   border-radius: 14px;
-  background-color: #050229;
+  background-color: #f09510;
   -webkit-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
   color: #fff;
@@ -3474,7 +3478,7 @@ figcaption {
   top: 0px;
   padding-top: 28px;
   padding-bottom: 28px;
-  background-color: transparent;
+  background-color: #000;
 }
 
 .header-logo {
@@ -3510,13 +3514,13 @@ figcaption {
 }
 
 .nav-link {
-  color: #050229;
+  color: #fff;
   line-height: 1em;
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: rgba(5, 2, 41, 0.6);
+  color: #f09510;
 }
 
 .nav-link.dropdown {
@@ -3534,8 +3538,8 @@ figcaption {
 
 .footer {
   padding-top: 100px;
-  border-top: 1px solid #c8c8d5;
-  background-color: #fff;
+  border-top: #000;
+  background-color: #000;
 }
 
 .footer-logo-container {
@@ -5946,7 +5950,7 @@ figcaption {
   bottom: 0%;
   z-index: -1;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #000;
   opacity: 0.95;
 }
 
@@ -6232,7 +6236,7 @@ figcaption {
 .footer-content-bottom {
   padding-top: 32px;
   padding-bottom: 32px;
-  border-top: 1px solid #c8c8d5;
+  border-top: #000;
   text-align: center;
 }
 
@@ -6241,7 +6245,7 @@ figcaption {
 }
 
 .link-neutral-800 {
-  color: #050229;
+  color: #fff;
 }
 
 .footer-main-content {
